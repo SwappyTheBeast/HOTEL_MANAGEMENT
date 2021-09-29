@@ -18,5 +18,8 @@ from 2:44 in order to do so.
 
 ===================================================================================================
 
+To use the program:
+
 First run the sql script through mySQL workbench
-Then open main.py to run the actual program.
+Edit main.py and type your sql connection password in " passwd='' "(You may need to change user and host as well, depending on your system's sql users)
+Open main.py to run the program.
