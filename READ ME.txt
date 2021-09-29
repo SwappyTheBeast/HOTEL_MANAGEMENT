@@ -1,0 +1,22 @@
+This is a project by SwappyTheBeast.
+
+====================================================================================================
+
+Required modules -
+
+datetime,mysql.connector,pyautogui
+
+To install pyautogui:
+
+S1: Open cmd
+S2: Type "pip install pyautogui"(without quotations)
+
+If an error "command pip is not recognised" occurs, follow any online
+tutorial to add python path to your environment variables.
+You may watch this https://www.youtube.com/watch?v=AdUZArA-kZw&ab_channel=TechWithTim 
+from 2:44 in order to do so.
+
+===================================================================================================
+
+First run the sql script through mySQL workbench
+Then open main.py to run the actual program.
