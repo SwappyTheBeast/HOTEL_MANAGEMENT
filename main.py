@@ -4,7 +4,7 @@ import datetime
 import pyautogui
 
 #CONNECTING TO DB AND CREATING CURSOR OBJECT
-mycon = mysql.connector.connect(user='root',passwd='flutrol70g',host='localhost',database='hotel_management')
+mycon = mysql.connector.connect(user='root',passwd='',host='localhost',database='hotel_management')
 cursor = mycon.cursor()
 
 #DEFINING GLOBAL VARIABLES NEEDED
