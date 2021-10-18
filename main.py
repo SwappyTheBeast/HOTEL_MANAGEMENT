@@ -105,7 +105,7 @@ def make_bill(Sr_No,name,doa,room_id):
     payment_method = str(input("ENTER PAYMENT METHOD : "))
     discount = amount / 10
     cursor.execute("INSERT INTO bills(Bill_id,customer_name,Sr_No,amount,discount,payment_method) VALUE('{}','{}',{},{},{},'{}');".format(new_bill_id,name,Sr_No,amount,discount,payment_method))
-    print("Bill has been created successfully.\nBill id is {} \nAmount to be paid is {}".format(new_bill_id,amount))
+    print("Bill has been created successfully.\nBill id is {} \nAmount to be paid is {}".format(new_bill_id,amount-discount))
 
 #searches table for room if currently staying, or else for phone number and id
 def info_based_on_customer_name():
